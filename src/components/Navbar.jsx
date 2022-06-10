@@ -63,17 +63,17 @@ const Navbar = () => {
             <div className='hidden lg:flex flex-col fixed top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/jaideep-kular/" target='_blank'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/jaideep-kular/" target='_blank' rel="noopener noreferrer">
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/jaideep-77" target='_blank'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/jaideep-77" target='_blank' rel="noopener noreferrer">
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href={PDF} target='_blank'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href={PDF} target='_blank' rel="noopener noreferrer">
                             Resume <FaFilePdf size={30} />
                         </a>
                     </li>
