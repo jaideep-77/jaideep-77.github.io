@@ -10,27 +10,24 @@ const Navbar = () => {
     }
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-end items-center px-4 m-0 bg-[#0a192f] text-gray-300'>
             {/* main menu */}
 
             <ul className='hidden md:flex'>
                 <li>
-                    <a href="/"> Home </a>
+                    <a href="#home"> Home </a>
                 </li>
                 <li>
-                    <a href="/about"> About </a>
+                    <a href="#experience"> Experience </a>
                 </li>
                 <li>
-                    <a href="/experience"> Experience </a>
+                    <a href="#projects"> Projects </a>
                 </li>
                 <li>
-                    <a href="/skills"> Skills </a>
+                    <a href="#skills"> Skills </a>
                 </li>
                 <li>
-                    <a href="/projects"> Projects </a>
-                </li>
-                <li>
-                    <a href="/contact"> Contact </a>
+                    <a href="#contact"> Contact </a>
                 </li>
             </ul>
 
@@ -41,22 +38,19 @@ const Navbar = () => {
             {/* phone menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>
-                    <a href="/"> Home </a>
+                    <a href="#home"> Home </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="/about"> About </a>
+                    <a href="#experience"> Experience </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="/experience"> Experience </a>
+                    <a href="#projects"> Projects </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="/skills"> Skills </a>
+                    <a href="#skills"> Skills </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="/projects"> Projects </a>
-                </li>
-                <li className='py-6 text-4xl'>
-                    <a href="/contact"> Contact </a>
+                    <a href="#contact"> Contact </a>
                 </li>
             </ul>
 
