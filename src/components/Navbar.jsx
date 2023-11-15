@@ -21,10 +21,10 @@ const Navbar = () => {
                     <a href="#experience"> Experience </a>
                 </li>
                 <li>
-                    <a href="#projects"> Projects </a>
+                    <a href="#skills"> Skills </a>
                 </li>
                 <li>
-                    <a href="#skills"> Skills </a>
+                    <a href="#projects"> Projects </a>
                 </li>
                 <li>
                     <a href="#contact"> Contact </a>
@@ -44,10 +44,10 @@ const Navbar = () => {
                     <a href="#experience"> Experience </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="#projects"> Projects </a>
+                    <a href="#skills"> Skills </a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <a href="#skills"> Skills </a>
+                    <a href="#projects"> Projects </a>
                 </li>
                 <li className='py-6 text-4xl'>
                     <a href="#contact"> Contact </a>
